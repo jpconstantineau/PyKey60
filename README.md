@@ -4,7 +4,7 @@
 
 
 
-![PyKey60](./images/PyKey60.jpg)
+![PyKey60](./images/PyKey60.PNG)
 
 ### How do I build it?
 
