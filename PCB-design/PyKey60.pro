@@ -1,4 +1,4 @@
-update=2021-09-16 7:59:50 AM
+update=11/4/2021 1:37:44 AM
 version=1
 last_client=kicad
 [general]
@@ -11,6 +11,16 @@ EquName1=devcms
 [eeschema]
 version=1
 LibDir=
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -28,9 +38,10 @@ MinMicroViaDiameter=0.508
 MinMicroViaDrill=0.127
 MinHoleToHole=0.25
 TrackWidth1=0.1524
-TrackWidth2=0.254
-TrackWidth3=0.4064
-TrackWidth4=0.889
+TrackWidth2=0.2
+TrackWidth3=0.254
+TrackWidth4=0.4064
+TrackWidth5=0.889
 ViaDiameter1=0.6096
 ViaDrill1=0.3048
 dPairWidth1=0.2
@@ -59,7 +70,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.07619999999999999
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=Front
 Type=0
@@ -249,13 +260,3 @@ uViaDrill=0.127
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=60
-ERC_TestSimilarLabels=1
