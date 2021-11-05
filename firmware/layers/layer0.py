@@ -4,8 +4,26 @@ layer = {                    # REQUIRED dict, must be named 'layer'
     'name' : 'Layer 0', # Application name
     'macros' : [           # keys ...
         # COLOR    LABEL    KEY SEQUENCE
-        # 1st row - top row ----------
-        (0x202000, 'ESC', [ KC.ESC ]),
+		
+		# 0th row - top row ----------
+		(0x202000, 'ESC', [ KC.ESC ]),
+		(0x202000, 'F1', [ KC.F1 ]),
+		(0x202000, 'F2', [ KC.F2 ]),
+		(0x202000, 'F3', [ KC.F3 ]),
+		(0x202000, 'F4', [ KC.F4 ]),
+		(0x202000, 'F5', [ KC.F5 ]),
+		(0x202000, 'F6', [ KC.F6 ]),
+		(0x202000, 'F7', [ KC.F7 ]),
+		(0x202000, 'F8', [ KC.F8 ]),
+		(0x202000, 'F9', [ KC.F9 ]),
+		(0x202000, 'F10', [ KC.F10 ]),
+		(0x202000, 'F11', [ KC.F11 ]),
+		(0x202000, 'F12', [ KC.F12 ]),
+		(0x202000, 'PSCR', [ KC.PRINT_SCREEN ]),
+		(0x202000, 'SCLK', [ KC.KC.LAYER_1  ]),
+		(0x202000, 'PBRK', [ KC.NO ]),
+        # 1st row ----------
+		(0x202000, '`', [ KC.GRAVE_ACCENT ]),
         (0x202000, '1', [ KC.ONE ]),
         (0x202000, '2', [ KC.TWO ]),
         (0x202000, '3', [ KC.THREE ]),
@@ -19,6 +37,9 @@ layer = {                    # REQUIRED dict, must be named 'layer'
         (0x202000, '-', [KC.MINUS]),
         (0x202000, '=', [KC.EQUALS]),
         (0x202000, 'BS', [KC.BSPACE]),
+		(0x202000, 'INS', [KC.INSERT ]),
+		(0x202000, 'HOME', [KC.HOME ]),
+		(0x202000, 'PGUP', [KC.PAGE_UP ]),
         # 2nd row ----------
         (0x202000, 'TAB', [ KC.TAB ]),
         (0x202000, 'q', [ KC.Q ]),
@@ -34,6 +55,9 @@ layer = {                    # REQUIRED dict, must be named 'layer'
         (0x202000, '[', [KC.LEFT_BRACKET]),
         (0x202000, ']', [KC.RIGHT_BRACKET]),
         (0x202000, '\\', [KC.BACKSLASH]),
+		(0x202000, 'DEL', [KC.DELETE ]),
+		(0x202000, 'END', [KC.END ]),
+		(0x202000, 'PGDN', [KC.PAGE_DOWN ]),
         # 3rd row ----------
         (0x202000, 'CAPS', [ KC.CAPS_LOCK ]),
         (0x202000, 'a', [ KC.A ]),
@@ -64,7 +88,8 @@ layer = {                    # REQUIRED dict, must be named 'layer'
         (0x202000, 'RSHFT', [KC.RSHIFT]),
         (0x202000, 'NO', [KC.NO]),
         (0x202000, 'RSHFT', [KC.RSHIFT]),
-
+		(0x202000, 'NO', [KC.NO]),
+		(0x202000, 'UP', [KC.UP_ARROW ]),
         # 5th row - bottom row ----------
         (0x800000, 'LCTL', [ KC.LEFT_CONTROL ]),
         (0x101010, 'LGUI', [ KC.LEFT_GUI ]),
@@ -78,9 +103,11 @@ layer = {                    # REQUIRED dict, must be named 'layer'
         (0x101010, 'RALT', [ KC.RIGHT_ALT ]),
         (0x101010, 'RGUI', [ KC.RIGHT_GUI ]),
 
-        (0x101010, 'MENU', [ KC.LAYER_1 ]),
+        (0x101010, 'MENU', [ KC.APPLICATION ]),
         (0x800000, 'NO', [ KC.NO ]),
         (0x101010, 'RCTL', [ KC.RIGHT_CONTROL ]),
-
+		(0x202000, 'LEFT', [KC.LEFT_ARROW ]),
+		(0x202000, 'DOWN', [KC.DOWN_ARROW ]),
+		(0x202000, 'RGHT', [KC.RIGHT_ARROW ]),
     ]
 }
