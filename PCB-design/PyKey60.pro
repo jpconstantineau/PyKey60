@@ -1,4 +1,4 @@
-update=11/4/2021 1:37:44 AM
+update=11/7/2021 5:48:26 PM
 version=1
 last_client=kicad
 [general]
@@ -24,7 +24,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=PyKey60.net
+LastNetListRead=PyKey87.net
 CopperLayerCount=2
 BoardThickness=1.6002
 AllowMicroVias=0
@@ -70,7 +70,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.07619999999999999
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=Front
 Type=0
