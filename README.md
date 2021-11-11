@@ -39,6 +39,7 @@ See license.txt for more details. See this [FAQ](https://ohwr.org/project/cernoh
 | RP2040 Minimal Design Example | Kicad Project | [link](https://datasheets.raspberrypi.org/rp2040/Minimal-KiCAD.zip) | 3-Clause BSD (considered as source code included as part of documentation) |
 | kicad libraries | Core libraries from Kicad | [link](https://www.kicad.org/libraries/license/) | CC-BY-SA 4.0 (with exception)|
 | kicad libraries | switch symbols and footprints | [link](https://github.com/sszczep/kicad-libraries)| MIT | 
+| kicad footprint | footprint for speaker | [link](https://app.ultralibrarian.com/details/FACFF22F-8DB5-11EB-9033-0A34D6323D74/Mallory-Sonalert/AST1109MLTRQ) | Proprietary | 
 
 
 ### openmoko-usb-oui application details
