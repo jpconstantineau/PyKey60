@@ -34,6 +34,7 @@ See license.txt for more details. See this [FAQ](https://ohwr.org/project/cernoh
 
 |  Item  | Description | Source  | License  |
 |----|----      | :-----  | :-------- |
+| PyKey60 | Direct progenitor, 60% form factor powered by RP2040 and CircuitPython | [Link](https://github.com/jpconstantineau/PyKey60) | CERN OHL v2 - W |
 | RP2040 Hardware Design Guide  | RP2040 Documentation (for reference) | [link](https://datasheets.raspberrypi.org/rp2040/hardware-design-with-rp2040.pdf) | CC BY-ND |
 | RP2040 Minimal Design Example | Kicad Project | [link](https://datasheets.raspberrypi.org/rp2040/Minimal-KiCAD.zip) | 3-Clause BSD (considered as source code included as part of documentation) |
 | kicad libraries | Core libraries from Kicad | [link](https://www.kicad.org/libraries/license/) | CC-BY-SA 4.0 (with exception)|
