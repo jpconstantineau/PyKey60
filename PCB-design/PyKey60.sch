@@ -9096,4 +9096,15 @@ Text GLabel 11150 10300 2    60   Input ~ 0
 I2C1_SDA
 Text GLabel 11150 10400 2    60   Input ~ 0
 I2C1_SCL
+$Comp
+L Mechanical:MountingHole_Pad H7
+U 1 1 61B6C89D
+P 20550 7000
+F 0 "H7" H 20650 7049 50  0000 L CNN
+F 1 "MountingHole_Pad" H 20650 6958 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 20550 7000 50  0001 C CNN
+F 3 "~" H 20550 7000 50  0001 C CNN
+	1    20550 7000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

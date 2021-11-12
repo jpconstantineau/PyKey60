@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:PyKey87-bottom-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -80,10 +81,10 @@ F 3 "~" H 2400 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H7
+L Mechanical:MountingHole_Pad H8
 U 1 1 618E47BC
 P 2350 5000
-F 0 "H7" H 2450 5094 50  0000 L CNN
+F 0 "H8" H 2450 5094 50  0000 L CNN
 F 1 "MountingHole_Pad" H 2450 5003 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 2450 4912 50  0000 L CNN
 F 3 "~" H 2350 5000 50  0001 C CNN
@@ -91,14 +92,25 @@ F 3 "~" H 2350 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H8
+L Mechanical:MountingHole_Pad H9
 U 1 1 618E4FDD
 P 3500 5000
-F 0 "H8" H 3600 5094 50  0000 L CNN
+F 0 "H9" H 3600 5094 50  0000 L CNN
 F 1 "MountingHole_Pad" H 3600 5003 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 3600 4912 50  0000 L CNN
 F 3 "~" H 3500 5000 50  0001 C CNN
 	1    3500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H7
+U 1 1 618ECBEC
+P 2450 4150
+F 0 "H7" H 2550 4244 50  0000 L CNN
+F 1 "MountingHole_Pad" H 2550 4153 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_Pad" H 2550 4062 50  0000 L CNN
+F 3 "~" H 2450 4150 50  0001 C CNN
+	1    2450 4150
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
