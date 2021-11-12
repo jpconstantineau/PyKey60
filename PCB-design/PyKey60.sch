@@ -555,8 +555,6 @@ Wire Wire Line
 Connection ~ 14950 1600
 Text GLabel 11150 10500 2    60   Input ~ 0
 LED
-Text GLabel 11150 10200 2    60   Input ~ 0
-Speaker
 $Comp
 L power:GND #PWR0239
 U 1 1 628693CA
@@ -2605,7 +2603,6 @@ Wire Wire Line
 	11150 10600 11000 10600
 NoConn ~ 11150 11000
 NoConn ~ 11150 10800
-NoConn ~ 11150 10400
 Wire Wire Line
 	1050 1850 3700 1850
 Connection ~ 3700 1850
@@ -8779,7 +8776,6 @@ F 3 "~" H 20850 6800 50  0001 C CNN
 	1    20850 6800
 	1    0    0    -1  
 $EndComp
-NoConn ~ 11150 10300
 $Comp
 L power:GND #PWR0252
 U 1 1 64A6EF5F
@@ -9094,4 +9090,10 @@ Wire Wire Line
 Connection ~ 14950 2350
 Wire Wire Line
 	14950 2350 15000 2350
+Text GLabel 11150 10200 2    60   Input ~ 0
+Speaker
+Text GLabel 11150 10300 2    60   Input ~ 0
+I2C1_SDA
+Text GLabel 11150 10400 2    60   Input ~ 0
+I2C1_SCL
 $EndSCHEMATC
