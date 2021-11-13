@@ -13,6 +13,7 @@ Just like CircuitPython, this keyboard is targeted for beginners. The design kee
 [KMK Firmware](https://github.com/KMKfw/kmk_firmware/tree/master/boards/jpconstantineau/PyKey60)
 
 Design of PyKey60 is licensed under **CERN Open Hardware Licence Version 2 - Weakly Reciprocal**
+
 Author of the Pykey60 is Pierre Constantineau
 
 ### PyKey87
@@ -24,6 +25,7 @@ The PyKey87 is a custom programmable mechanical keyboard with a standard ANSI TK
 The design keeps the matrix definition simple to 17 columns and 6 rows.
 
 Design of PyKey87 is licensed under **CERN Open Hardware Licence Version 2 - Weakly Reciprocal**
+
 Author of the Pykey87 is Pierre Constantineau and nitronarcosis (https://github.com/nitronarcosis)
 
 ### Guidelines for adding new boards to PyKey60 repository
