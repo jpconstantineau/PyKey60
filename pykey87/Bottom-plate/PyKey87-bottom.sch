@@ -113,4 +113,15 @@ F 3 "~" H 2450 4150 50  0001 C CNN
 	1    2450 4150
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole_Pad H8
+U 1 1 618F6366
+P 3750 4150
+F 0 "H8" H 3850 4244 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3850 4153 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 3850 4062 50  0000 L CNN
+F 3 "~" H 3750 4150 50  0001 C CNN
+	1    3750 4150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

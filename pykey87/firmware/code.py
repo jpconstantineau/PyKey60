@@ -17,10 +17,10 @@ pixels = neopixel.NeoPixel(pixel_pin, num_pixels, brightness=0.3, auto_write=Fal
 
 # Hardware definition: Switch Matrix Setup.
 keys = keypad.KeyMatrix(
-    row_pins=(board.GP24, board.GP14, board.GP15, board.GP16, board.GP17, board.GP18),
+    row_pins=(board.GP27, board.GP14, board.GP15, board.GP16, board.GP17, board.GP18),
     column_pins=(board.GP0, board.GP1, board.GP2, board.GP3, board.GP4, board.GP5, board.GP6,
                  board.GP7, board.GP8, board.GP9, board.GP10, board.GP11, board.GP12, board.GP13,
-				 board.GP19, board.GP20, board.GP21),
+				 board.GP19, board.GP20, board.GP25),
     columns_to_anodes=True,
 )
 
