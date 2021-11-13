@@ -20,7 +20,7 @@ U 1 1 618E16B1
 P 3500 2550
 F 0 "H2" H 3600 2644 50  0000 L CNN
 F 1 "MountingHole_Pad" H 3600 2553 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_Pad" H 3600 2462 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 3600 2462 50  0000 L CNN
 F 3 "~" H 3500 2550 50  0001 C CNN
 	1    3500 2550
 	1    0    0    -1  
@@ -31,7 +31,7 @@ U 1 1 618E2394
 P 3600 3100
 F 0 "H3" H 3700 3194 50  0000 L CNN
 F 1 "MountingHole_Pad" H 3700 3103 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_Pad" H 3700 3012 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 3700 3012 50  0000 L CNN
 F 3 "~" H 3600 3100 50  0001 C CNN
 	1    3600 3100
 	1    0    0    -1  
@@ -42,7 +42,7 @@ U 1 1 618E2631
 P 3550 3600
 F 0 "H5" H 3650 3694 50  0000 L CNN
 F 1 "MountingHole_Pad" H 3650 3603 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_Pad" H 3650 3512 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 3650 3512 50  0000 L CNN
 F 3 "~" H 3550 3600 50  0001 C CNN
 	1    3550 3600
 	1    0    0    -1  
@@ -53,7 +53,7 @@ U 1 1 618E2AF4
 P 2300 2500
 F 0 "H1" H 2400 2594 50  0000 L CNN
 F 1 "MountingHole_Pad" H 2400 2503 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_Pad" H 2400 2412 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 2400 2412 50  0000 L CNN
 F 3 "~" H 2300 2500 50  0001 C CNN
 	1    2300 2500
 	1    0    0    -1  
@@ -64,7 +64,7 @@ U 1 1 618E2E1F
 P 2300 3150
 F 0 "H4" H 2400 3244 50  0000 L CNN
 F 1 "MountingHole_Pad" H 2400 3153 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_Pad" H 2400 3062 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 2400 3062 50  0000 L CNN
 F 3 "~" H 2300 3150 50  0001 C CNN
 	1    2300 3150
 	1    0    0    -1  
@@ -75,7 +75,7 @@ U 1 1 618E32F3
 P 2400 3700
 F 0 "H6" H 2500 3794 50  0000 L CNN
 F 1 "MountingHole_Pad" H 2500 3703 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_Pad" H 2500 3612 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 2500 3612 50  0000 L CNN
 F 3 "~" H 2400 3700 50  0001 C CNN
 	1    2400 3700
 	1    0    0    -1  
@@ -108,7 +108,7 @@ U 1 1 618ECBEC
 P 2450 4150
 F 0 "H7" H 2550 4244 50  0000 L CNN
 F 1 "MountingHole_Pad" H 2550 4153 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_Pad" H 2550 4062 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 2550 4062 50  0000 L CNN
 F 3 "~" H 2450 4150 50  0001 C CNN
 	1    2450 4150
 	1    0    0    -1  

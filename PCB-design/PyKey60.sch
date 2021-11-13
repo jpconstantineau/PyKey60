@@ -8716,7 +8716,7 @@ U 1 1 61DE1B1E
 P 18950 6800
 F 0 "H1" H 19050 6849 50  0000 L CNN
 F 1 "MountingHole_Pad" H 19050 6758 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 18950 6800 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 18950 6800 50  0001 C CNN
 F 3 "~" H 18950 6800 50  0001 C CNN
 	1    18950 6800
 	1    0    0    -1  
@@ -8727,7 +8727,7 @@ U 1 1 61DE4D62
 P 18950 7250
 F 0 "H2" H 19050 7299 50  0000 L CNN
 F 1 "MountingHole_Pad" H 19050 7208 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 18950 7250 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 18950 7250 50  0001 C CNN
 F 3 "~" H 18950 7250 50  0001 C CNN
 	1    18950 7250
 	1    0    0    -1  
@@ -8738,7 +8738,7 @@ U 1 1 61DEA64C
 P 19900 6800
 F 0 "H3" H 20000 6849 50  0000 L CNN
 F 1 "MountingHole_Pad" H 20000 6758 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 19900 6800 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 19900 6800 50  0001 C CNN
 F 3 "~" H 19900 6800 50  0001 C CNN
 	1    19900 6800
 	1    0    0    -1  
@@ -8749,7 +8749,7 @@ U 1 1 61DEAA94
 P 19900 7250
 F 0 "H4" H 20000 7299 50  0000 L CNN
 F 1 "MountingHole_Pad" H 20000 7208 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 19900 7250 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 19900 7250 50  0001 C CNN
 F 3 "~" H 19900 7250 50  0001 C CNN
 	1    19900 7250
 	1    0    0    -1  
@@ -8760,7 +8760,7 @@ U 1 1 61DEAF93
 P 20850 7250
 F 0 "H6" H 20950 7299 50  0000 L CNN
 F 1 "MountingHole_Pad" H 20950 7208 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 20850 7250 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 20850 7250 50  0001 C CNN
 F 3 "~" H 20850 7250 50  0001 C CNN
 	1    20850 7250
 	1    0    0    -1  
@@ -8771,7 +8771,7 @@ U 1 1 61DEB4B5
 P 20850 6800
 F 0 "H5" H 20950 6849 50  0000 L CNN
 F 1 "MountingHole_Pad" H 20950 6758 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 20850 6800 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 20850 6800 50  0001 C CNN
 F 3 "~" H 20850 6800 50  0001 C CNN
 	1    20850 6800
 	1    0    0    -1  
@@ -9102,7 +9102,7 @@ U 1 1 61B6C89D
 P 20550 7000
 F 0 "H7" H 20650 7049 50  0000 L CNN
 F 1 "MountingHole_Pad" H 20650 6958 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 20550 7000 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 20550 7000 50  0001 C CNN
 F 3 "~" H 20550 7000 50  0001 C CNN
 	1    20550 7000
 	1    0    0    -1  
