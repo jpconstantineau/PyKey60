@@ -1,52 +1,45 @@
-# PyKey60
+# PyKey60 - Keyboard Hardware
 
-### What is PyKey60?
+### PyKey60
 
+![PyKey60](./pykey60/images/PyKey60.PNG)
 
+The PyKey60 is a custom programmable mechanical keyboard with a standard ANSI 60% keyboard layout compatible with any cases made for the GH60. The PyKey60 uses mechanical switches (Cherry MX type). The keys are hot-swap socketed and have an individual underglow RGB LED which can be turned on. The PCB was designed for use with PCB-mount stabilizers.
 
-![PyKey60](./images/PyKey60.PNG)
+Since this is a Hot Swappable Switches keyboard, you can choose the MX switches as well as the keycaps you prefer. You can even mix and match switches for the ultimate customization.
 
-### How do I build it?
+Just like CircuitPython, this keyboard is targeted for beginners. The design keeps the matrix definition simple to 14 columns and 5 rows instead of using a GPIO-optimized matrix of 8 columns and 8 rows. Neopixel order is also in line with key numbers. This keeps the complexity of coding a keyboard firmware to a minimum.
 
-You don't need many tools to build it!  
-* Press the switches through the top plate
-* Align the key switch pins with their sockets and press them in, 
-* Install the keycaps
-* Install the adhesive rubber bump ons as feet.
-
-### How do I program it?
-
-PyKey60 can be programmed with CircuitPython.  To get started, get the latest download from the official [CircuitPython.org](https://circuitpython.org/) site, put the RP2040 in  booloader mode by pressing "reset" while pressing the "boot" button and drag/drop in the UF2 file you just downloaded. You are now ready to program it! No build tools required on your computer!
-
-Notes: 
-* CircuitPython is licensed under the [MIT License](https://github.com/adafruit/circuitpython/blob/main/LICENSE).
-* Default Firmware for PyKey60 is based on the [MACROPAD Hoykeys](https://learn.adafruit.com/macropad-hotkeys) example for the [Adafruit Macropad RP2040](https://learn.adafruit.com/adafruit-macropad-rp2040) which is part of the [Adafruit Learning System Guides](https://learn.adafruit.com/), licensed under the [MIT License](https://github.com/adafruit/Adafruit_Learning_System_Guides/blob/main/LICENSE).
-* Default firmware is **MIT** licensed.
-
-### Hardware License
+[KMK Firmware](https://github.com/KMKfw/kmk_firmware/tree/master/boards/jpconstantineau/PyKey60)
 
 Design of PyKey60 is licensed under **CERN Open Hardware Licence Version 2 - Weakly Reciprocal**
+Author of the Pykey60 is Pierre Constantineau
 
-See license.txt for more details. See this [FAQ](https://ohwr.org/project/cernohl/wikis/faq#q-copyright-does-not-cover-hardware-how-do-you-implement-strongly-reciprocal-licensing-in-cern-ohl-s) for more information on this license.
+### PyKey87
 
+![PyKey87](./pykey87/images/PyKey87.PNG)
 
-### Licenses from reference material and libraries
+The PyKey87 is a custom programmable mechanical keyboard with a standard ANSI TKL (Ten Key Less) keyboard layout. The PyKey87 uses mechanical switches (Cherry MX type). The keys are hot-swap socketed and have an individual underglow RGB LED which can be turned on. The PCB was designed for use with PCB-mount stabilizers.  The case is a simple sandwich case.
 
-|  Item  | Description | Source  | License  |
-|----|----      | :-----  | :-------- |
-| RP2040 Hardware Design Guide  | RP2040 Documentation (for reference) | [link](https://datasheets.raspberrypi.org/rp2040/hardware-design-with-rp2040.pdf) | CC BY-ND |
-| RP2040 Minimal Design Example | Kicad Project | [link](https://datasheets.raspberrypi.org/rp2040/Minimal-KiCAD.zip) | 3-Clause BSD (considered as source code included as part of documentation) |
-| kicad libraries | Core libraries from Kicad | [link](https://www.kicad.org/libraries/license/) | CC-BY-SA 4.0 (with exception)|
-| kicad libraries | switch symbols and footprints | [link](https://github.com/sszczep/kicad-libraries)| MIT | 
+The design keeps the matrix definition simple to 17 columns and 6 rows.
 
+Design of PyKey87 is licensed under **CERN Open Hardware Licence Version 2 - Weakly Reciprocal**
+Author of the Pykey87 is Pierre Constantineau and nitronarcosis (https://github.com/nitronarcosis)
 
-### openmoko-usb-oui application details
+### Guidelines for adding new boards to PyKey60 repository
 
-[USB PID Request](https://github.com/openmoko/openmoko-usb-oui)
-
-1. () Have a README[.txt|.md] file describing which part is under which license this will help to quickly identify the project's license, particularly when several licenses are combined, or your are using libraries under other licenses. Also make sure the combination is allowed by the individual licenses.
-2. (done) Include all full text licenses in a LICENSE[.txt] file
-3. () Include a copyright notice in the schematic sheet(s), including author and date this will determine who the copyright holder is, and when the copyright will expire.
-4. () Include the license name in the schematic sheet(s) this becomes important when different license are combined, and parts of the project, or libraries, are under different licenses
-5. () Include all schematic symbols and board footprint libraries in the project without that the project can't be seen as complete. Also ensure their license is compatible.
-66. () Export the schematic capture as pdf, and board layout as gerber+NC drill [and other fabrication output] files - not every user can, or wants, to install the EDA suite you are using. This is even more important if in the future this suite stops supporting the current format. If you don't want to mix the fabrication output with the source files, have a general project page pointing to the source files and fabrication output.
+* Schematic must be compatible with the original Pykey60.  This means the following:
+  * GPIO for Rows and Columns must remain the same
+  * GPIO for RGB LEDs, Red LED and Speaker must remain the same
+  * Flash chip must remain the same: W25Q128JVS
+  * Schematic title block updated with correct information
+    * Author(s)
+    * Date
+* Schematic is provided as a pdf file
+* PCB Design has updated author(s) and date.
+* PCB Design keeps the license label.
+* Images provided in the image folder
+* Both PCB-Design and PCB-Gerbers are provided.
+* A readme is included
+* CircuitPython must be able to run with the Original [PyKey60 CircuitPython Download/UF2](https://circuitpython.org/board/jpconstantineau_pykey60/)
+* A summary description is provided in the repository readme
