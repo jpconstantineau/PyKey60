@@ -1,4 +1,4 @@
-# PyKey60 - Keyboard Hardware
+# PyKey60 - Keyboard Hardware supported by the PyKey60 CircuitPython Download
 
 ### PyKey60
 
@@ -16,6 +16,19 @@ Design of PyKey60 is licensed under **CERN Open Hardware Licence Version 2 - Wea
 
 Author of the Pykey60 is Pierre Constantineau
 
+
+### VColChoc44
+
+![VColChoc44](./VColChoc44/images/VColChoc44.PNG)
+
+The VColChoc44 is a custom programmable mechanical keyboard with a 44-keys ergonomic keyboard layout. The VColChoc44 uses low profile mechanical switches (Kailh Choc V1 type). The keys are hot-swap socketed and have an individual underglow RGB LED which can be turned on.
+
+The rows and columns used by VColChoc44 are a subset of PyKey60.
+
+Design of VColChoc44 is licensed under **CERN Open Hardware Licence Version 2 - Weakly Reciprocal**
+
+Author of the VColChoc44 is Pierre Constantineau
+
 ### PyKey87
 
 ![PyKey87](./pykey87/images/PyKey87.PNG)
@@ -24,9 +37,11 @@ The PyKey87 is a custom programmable mechanical keyboard with a standard ANSI TK
 
 The design keeps the matrix definition simple to 17 columns and 6 rows.
 
+The rows and columns used by PyKey87 expanded the PyKey60 configuration to support more rows and columns.  The SPI pins were re-used for the additional columns/row.
+
 Design of PyKey87 is licensed under **CERN Open Hardware Licence Version 2 - Weakly Reciprocal**
 
-Author of the Pykey87 is Pierre Constantineau and nitronarcosis (https://github.com/nitronarcosis)
+Authors of the Pykey87 are Pierre Constantineau and nitronarcosis (https://github.com/nitronarcosis)
 
 ### Guidelines for adding new boards to PyKey60 repository
 
