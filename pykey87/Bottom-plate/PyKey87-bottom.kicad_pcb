@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 14)
+    (drawings 10)
     (tracks 0)
     (zones 0)
     (modules 10)
@@ -337,16 +337,12 @@
       (net 9 "Net-(H9-Pad1)"))
   )
 
-  (gr_text Reset (at 91.44 119.57) (layer B.Cu)
+  (gr_text Reset (at 124.46 43.18) (layer B.Cu)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "Run    Boot" (at 91.44 103.64) (layer B.Cu)
+  (gr_text "Boot    Run" (at 101.6 43.18) (layer B.Cu)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_line (start 87.47 104.7) (end 87.47 118.7) (layer Edge.Cuts) (width 0.12))
-  (gr_line (start 95.47 104.7) (end 87.47 104.7) (layer Edge.Cuts) (width 0.12))
-  (gr_line (start 95.47 118.7) (end 95.47 104.7) (layer Edge.Cuts) (width 0.12))
-  (gr_line (start 87.47 118.7) (end 95.47 118.7) (layer Edge.Cuts) (width 0.12))
   (gr_arc (start 61 158) (end 61 160) (angle 90) (layer Edge.Cuts) (width 0.09906) (tstamp 618E1870))
   (gr_arc (start 60.96 42) (end 58.96 42) (angle 90) (layer Edge.Cuts) (width 0.09906) (tstamp 618E186B))
   (gr_arc (start 410 42) (end 410 40) (angle 90) (layer Edge.Cuts) (width 0.09906) (tstamp 618E1863))
