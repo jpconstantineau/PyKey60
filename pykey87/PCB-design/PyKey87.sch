@@ -6,9 +6,9 @@ $Descr User 24213 14370
 encoding utf-8
 Sheet 1 1
 Title "PyKey87 RP2040"
-Date "2021-09-16"
+Date "2021-11-14"
 Rev "1.0"
-Comp "Pierre Constantineau (JPConstantineau)"
+Comp "Pierre Constantineau (JPConstantineau) & nitronarcosis"
 Comment1 "License: CERN-OHL-W (CERN OHL v2)"
 Comment2 "https://github.com/nitronarcosis/PyKey87"
 Comment3 ""
@@ -473,10 +473,6 @@ F 3 "~" H 21800 5300 50  0001 C CNN
 	1    21800 5300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	17850 1850 19100 1850
-Wire Wire Line
-	17850 2600 19100 2600
 Wire Wire Line
 	3550 1000 3550 1300
 $Comp
@@ -9047,6 +9043,7 @@ F 0 "J3" H 7830 12442 50  0000 L CNN
 F 1 "Conn_01x04" H 7830 12351 50  0000 L CNN
 F 2 "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical" H 7750 12450 50  0001 C CNN
 F 3 "~" H 7750 12450 50  0001 C CNN
+F 4 "Qwiic connector" H 8450 12250 50  0000 R BNN "Note"
 	1    7750 12450
 	1    0    0    -1  
 $EndComp
@@ -9125,4 +9122,109 @@ Wire Wire Line
 	16300 1600 16300 2350
 Wire Wire Line
 	17500 1600 17500 2350
+Text GLabel 7550 11900 0    60   Input ~ 0
+I2C1_SDA
+Text GLabel 7550 11800 0    60   Input ~ 0
+I2C1_SCL
+Text GLabel 7350 11200 0    60   Input ~ 0
+I2C1_SCL
+$Comp
+L Connector:AudioJack4 J4
+U 1 1 62305BE4
+P 7550 11200
+F 0 "J4" H 7220 11083 50  0000 R CNN
+F 1 "AudioJack4" H 7220 11174 50  0000 R CNN
+F 2 "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal" H 7550 11200 50  0001 C CNN
+F 3 "~" H 7550 11200 50  0001 C CNN
+	1    7550 11200
+	-1   0    0    1   
+$EndComp
+Text GLabel 7350 11100 0    60   Input ~ 0
+I2C1_SDA
+$Comp
+L power:GND #PWR0300
+U 1 1 62F64508
+P 7350 11300
+F 0 "#PWR0300" H 7350 11050 50  0001 C CNN
+F 1 "GND" V 7355 11172 50  0000 R CNN
+F 2 "" H 7350 11300 50  0001 C CNN
+F 3 "" H 7350 11300 50  0001 C CNN
+	1    7350 11300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0301
+U 1 1 62F67571
+P 7350 11000
+F 0 "#PWR0301" H 7350 10850 50  0001 C CNN
+F 1 "+3.3V" V 7365 11128 50  0000 L CNN
+F 2 "" H 7350 11000 50  0001 C CNN
+F 3 "" H 7350 11000 50  0001 C CNN
+	1    7350 11000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0302
+U 1 1 631E332A
+P 7550 11700
+F 0 "#PWR0302" H 7550 11550 50  0001 C CNN
+F 1 "+3.3V" V 7565 11828 50  0000 L CNN
+F 2 "" H 7550 11700 50  0001 C CNN
+F 3 "" H 7550 11700 50  0001 C CNN
+	1    7550 11700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0303
+U 1 1 631E671F
+P 7550 11600
+F 0 "#PWR0303" H 7550 11350 50  0001 C CNN
+F 1 "GND" V 7555 11472 50  0000 R CNN
+F 2 "" H 7550 11600 50  0001 C CNN
+F 3 "" H 7550 11600 50  0001 C CNN
+	1    7550 11600
+	0    1    1    0   
+$EndComp
+Connection ~ 17650 1850
+Wire Wire Line
+	17650 1850 19100 1850
+Wire Wire Line
+	17650 2600 19100 2600
+Connection ~ 17650 2600
+$Comp
+L Mechanical:MountingHole H9
+U 1 1 643992E6
+P 20850 8150
+F 0 "H9" H 20950 8241 50  0000 L CNN
+F 1 "MountingHole" H 20950 8150 50  0000 L CNN
+F 2 "lib.pretty:MountingHole_1.152mm" H 20850 8150 50  0001 C CNN
+F 3 "~" H 20850 8150 50  0001 C CNN
+F 4 "JLCPCB Tooling Hole" H 20950 8059 50  0000 L CNN "Note"
+	1    20850 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H10
+U 1 1 646109EF
+P 20850 8450
+F 0 "H10" H 20950 8541 50  0000 L CNN
+F 1 "MountingHole" H 20950 8450 50  0000 L CNN
+F 2 "lib.pretty:MountingHole_1.152mm" H 20850 8450 50  0001 C CNN
+F 3 "~" H 20850 8450 50  0001 C CNN
+F 4 "JLCPCB Tooling Hole" H 20950 8359 50  0000 L CNN "Note"
+	1    20850 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J5
+U 1 1 62304B28
+P 7750 11700
+F 0 "J5" H 7830 11737 50  0000 L CNN
+F 1 "Conn_01x04" H 7830 11646 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7750 11700 50  0001 C CNN
+F 3 "~" H 7750 11700 50  0001 C CNN
+F 4 "OLED Connector" H 7830 11555 50  0000 L TNN "Note"
+	1    7750 11700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

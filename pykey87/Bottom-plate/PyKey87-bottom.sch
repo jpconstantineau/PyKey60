@@ -48,17 +48,6 @@ F 3 "~" H 3550 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H1
-U 1 1 618E2AF4
-P 2300 2500
-F 0 "H1" H 2400 2594 50  0000 L CNN
-F 1 "MountingHole_Pad" H 2400 2503 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 2400 2412 50  0000 L CNN
-F 3 "~" H 2300 2500 50  0001 C CNN
-	1    2300 2500
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole_Pad H4
 U 1 1 618E2E1F
 P 2300 3150
@@ -81,10 +70,10 @@ F 3 "~" H 2400 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H8
+L Mechanical:MountingHole_Pad H9
 U 1 1 618E47BC
 P 2350 5000
-F 0 "H8" H 2450 5094 50  0000 L CNN
+F 0 "H9" H 2450 5094 50  0000 L CNN
 F 1 "MountingHole_Pad" H 2450 5003 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 2450 4912 50  0000 L CNN
 F 3 "~" H 2350 5000 50  0001 C CNN
@@ -92,10 +81,10 @@ F 3 "~" H 2350 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H9
+L Mechanical:MountingHole_Pad H10
 U 1 1 618E4FDD
 P 3500 5000
-F 0 "H9" H 3600 5094 50  0000 L CNN
+F 0 "H10" H 3600 5094 50  0000 L CNN
 F 1 "MountingHole_Pad" H 3600 5003 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 3600 4912 50  0000 L CNN
 F 3 "~" H 3500 5000 50  0001 C CNN
@@ -124,4 +113,25 @@ F 3 "~" H 3750 4150 50  0001 C CNN
 	1    3750 4150
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 618E2AF4
+P 2300 2500
+F 0 "H1" H 2400 2594 50  0000 L CNN
+F 1 "MountingHole_Pad" H 2400 2503 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 2400 2412 50  0000 L CNN
+F 3 "~" H 2300 2500 50  0001 C CNN
+	1    2300 2500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2300 2600
+NoConn ~ 2300 3250
+NoConn ~ 2400 3800
+NoConn ~ 2450 4250
+NoConn ~ 3500 2650
+NoConn ~ 3600 3200
+NoConn ~ 3550 3700
+NoConn ~ 3750 4250
+NoConn ~ 2350 5100
+NoConn ~ 3500 5100
 $EndSCHEMATC
