@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# USBLC6-2SC6-Power_Protection-PyKey60-rescue
+# USBLC6-2SC6-Power_Protection-PyKey87-rescue
 #
-DEF USBLC6-2SC6-Power_Protection-PyKey60-rescue U 0 20 Y N 1 F N
+DEF USBLC6-2SC6-Power_Protection-PyKey87-rescue U 0 20 Y N 1 F N
 F0 "U" 100 350 50 H V L CNN
-F1 "USBLC6-2SC6-Power_Protection-PyKey60-rescue" 100 -350 50 H V L CNN
+F1 "USBLC6-2SC6-Power_Protection-PyKey87-rescue" 100 -350 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23-6" 0 -500 50 H I C CNN
 F3 "" 200 350 50 H I C CNN
 $FPLIST
@@ -51,11 +51,11 @@ X I/O1 6 -400 100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# USB_C_Receptacle_USB2.0-Connector-PyKey60-rescue
+# USB_C_Receptacle_USB2.0-Connector-PyKey87-rescue
 #
-DEF USB_C_Receptacle_USB2.0-Connector-PyKey60-rescue J 0 40 Y Y 1 F N
+DEF USB_C_Receptacle_USB2.0-Connector-PyKey87-rescue J 0 40 Y Y 1 F N
 F0 "J" -400 750 50 H V L CNN
-F1 "USB_C_Receptacle_USB2.0-Connector-PyKey60-rescue" 750 750 50 H V R CNN
+F1 "USB_C_Receptacle_USB2.0-Connector-PyKey87-rescue" 750 750 50 H V R CNN
 F2 "" 150 0 50 H I C CNN
 F3 "" 150 0 50 H I C CNN
 $FPLIST
@@ -109,11 +109,11 @@ X SHIELD S1 -300 -900 200 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# W25Q128JVS-Memory_Flash-PyKey60-rescue
+# W25Q128JVS-Memory_Flash-PyKey87-rescue
 #
-DEF W25Q128JVS-Memory_Flash-PyKey60-rescue U 0 20 Y Y 1 F N
+DEF W25Q128JVS-Memory_Flash-PyKey87-rescue U 0 20 Y Y 1 F N
 F0 "U" -350 350 50 H V C CNN
-F1 "W25Q128JVS-Memory_Flash-PyKey60-rescue" 300 350 50 H V C CNN
+F1 "W25Q128JVS-Memory_Flash-PyKey87-rescue" 300 350 50 H V C CNN
 F2 "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
