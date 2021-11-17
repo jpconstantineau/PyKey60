@@ -2789,8 +2789,6 @@ F 3 "" H 22650 3250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	21650 5550 21650 5300
-Wire Wire Line
 	21650 2600 21650 2350
 Wire Wire Line
 	3650 5550 7450 5550
@@ -3222,9 +3220,6 @@ Wire Wire Line
 	21950 5300 22050 5300
 Wire Wire Line
 	20700 5300 20800 5300
-Connection ~ 20400 5550
-Wire Wire Line
-	20400 5550 21650 5550
 Wire Wire Line
 	20400 5550 20400 5300
 Wire Wire Line
@@ -9238,4 +9233,11 @@ F 3 "~" H 19250 8500 50  0001 C CNN
 	1    19250 8500
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	21650 5300 21650 4950
+Wire Wire Line
+	21650 4950 20700 4950
+Wire Wire Line
+	20700 4950 20700 5300
+Connection ~ 20700 5300
 $EndSCHEMATC
