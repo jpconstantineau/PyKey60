@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:PyKey87-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr User 24213 14370
 encoding utf-8
@@ -1174,7 +1173,7 @@ F 4 "C6186" H 3300 9550 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L PyKey87-rescue:W25Q128JVS-Memory_Flash-PyKey87-rescue U102
+L Memory_Flash:W25Q128JVS U102
 U 1 1 613CF811
 P 6100 7550
 F 0 "U102" H 6100 8131 50  0000 C CNN
@@ -1186,7 +1185,7 @@ F 4 "C97521" H 6100 7550 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L PyKey87-rescue:USBLC6-2SC6-Power_Protection-PyKey87-rescue U101
+L Power_Protection:USBLC6-2SC6 U101
 U 1 1 613D38EF
 P 2950 7150
 F 0 "U101" H 2950 7731 50  0000 C CNN
@@ -7384,7 +7383,7 @@ NoConn ~ 900  8050
 NoConn ~ 1800 7650
 NoConn ~ 1800 7750
 $Comp
-L PyKey87-rescue:USB_C_Receptacle_USB2.0-Connector-PyKey87-rescue J1
+L Connector:USB_C_Receptacle_USB2.0 J1
 U 1 1 613B693C
 P 1200 7150
 F 0 "J1" H 1307 8017 50  0000 C CNN
