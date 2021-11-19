@@ -2575,7 +2575,6 @@ Wire Wire Line
 Wire Wire Line
 	11150 10600 11000 10600
 NoConn ~ 11150 11000
-NoConn ~ 11150 10800
 Wire Wire Line
 	1050 1850 3700 1850
 Connection ~ 3700 1850
@@ -5885,7 +5884,7 @@ Wire Wire Line
 	11000 9900 11150 9900
 Text GLabel 11150 9500 2    60   Input ~ 0
 ROW1
-Text GLabel 11150 10900 2    60   Input ~ 0
+Text GLabel 11150 10800 2    60   Input ~ 0
 ROW0
 Text GLabel 11150 10600 2    60   Input ~ 0
 COL17
@@ -9237,4 +9236,5 @@ Wire Wire Line
 Wire Wire Line
 	21650 5550 20400 5550
 Connection ~ 20400 5550
+NoConn ~ 11150 10900
 $EndSCHEMATC
