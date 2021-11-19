@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name CherryMX)(type Legacy)(uri ${KIPRJMOD}/symbols/CherryMX.lib)(options "")(descr ""))
+  (lib (name MCU_RaspberryPi_and_Boards)(type Legacy)(uri ${KIPRJMOD}/symbols/MCU_RaspberryPi_and_Boards.lib)(options "")(descr ""))
+  (lib (name MCU_RaspberryPi_RP2040)(type Legacy)(uri ${KIPRJMOD}/symbols/MCU_RaspberryPi_RP2040.lib)(options "")(descr ""))
+)
