@@ -4,12 +4,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Title "PyKey18 RP2040"
+Date "2021-11-21"
+Rev "1.0"
+Comp "Pierre Constantineau (JPConstantineau)"
+Comment1 "License: CERN-OHL-W (CERN OHL v2)"
+Comment2 "Project: https://github.com/jpconstantineau/PyKey60"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -91,7 +91,7 @@ U 1 1 61A2AEBB
 P 10000 5550
 F 0 "H7" H 10100 5596 50  0000 L CNN
 F 1 "Logo" H 10100 5505 50  0000 L CNN
-F 2 "Symbol:Symbol_Attention_CopperTop_Big" H 10000 5550 50  0001 C CNN
+F 2 "lib:KB_BlueMicro" H 10000 5550 50  0001 C CNN
 F 3 "~" H 10000 5550 50  0001 C CNN
 	1    10000 5550
 	1    0    0    -1  
@@ -258,7 +258,7 @@ U 1 1 61A4C851
 P 2650 5450
 F 0 "U17" H 2650 5835 50  0000 C CNN
 F 1 "CherryMX_LTST-A683CEGBW" H 2650 5744 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket_StabWireTop_LTST-A683CEGBW-Rotated-HS:CherryMX_2.00u_PCB_KailhSocket_StabWireTop_LTST-A683CEGBW-Rotated-HS" H 2650 5350 50  0001 C CNN
+F 2 "CherryMX_PCB_KailhSocket_StabWireBottom_LTST-A683CEGBW-Rotated-HS:CherryMX_2.00u_PCB_KailhSocket_StabWireBottom_LTST-A683CEGBW-Rotated-HS" H 2650 5350 50  0001 C CNN
 F 3 "" H 2650 5350 50  0001 C CNN
 	1    2650 5450
 	1    0    0    -1  
@@ -500,7 +500,7 @@ U 1 1 61A859EF
 P 8400 4100
 F 0 "U12" H 8400 4485 50  0000 C CNN
 F 1 "CherryMX_LTST-A683CEGBW" H 8400 4394 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket_StabWireTop_LTST-A683CEGBW-Rotated-HS:CherryMX_2.00u_PCB_KailhSocket_StabWireTop_LTST-A683CEGBW-Rotated-HS" H 8400 4000 50  0001 C CNN
+F 2 "CherryMX_PCB_KailhSocket_LTST-A683CEGBW-Rotated-HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-Rotated-HS" H 8400 4000 50  0001 C CNN
 F 3 "" H 8400 4000 50  0001 C CNN
 	1    8400 4100
 	1    0    0    -1  
@@ -522,7 +522,7 @@ U 1 1 61A85A03
 P 8400 4800
 F 0 "U16" H 8400 5185 50  0000 C CNN
 F 1 "CherryMX_LTST-A683CEGBW" H 8400 5094 50  0000 C CNN
-F 2 "CherryMX_PCB_KailhSocket_StabWireTop_LTST-A683CEGBW-Rotated-HS:CherryMX_2.00u_PCB_KailhSocket_StabWireTop_LTST-A683CEGBW-Rotated-HS" H 8400 4700 50  0001 C CNN
+F 2 "CherryMX_PCB_KailhSocket_LTST-A683CEGBW-Rotated-HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-Rotated-HS" H 8400 4700 50  0001 C CNN
 F 3 "" H 8400 4700 50  0001 C CNN
 	1    8400 4800
 	1    0    0    -1  
@@ -815,12 +815,6 @@ Wire Wire Line
 Wire Wire Line
 	7650 4200 8100 4200
 Wire Wire Line
-	6950 3350 7650 3350
-Wire Wire Line
-	7650 3350 7650 3500
-Wire Wire Line
-	7650 3500 8100 3500
-Wire Wire Line
 	5100 3350 5900 3350
 Wire Wire Line
 	5900 3350 5900 3450
@@ -832,9 +826,9 @@ Wire Wire Line
 	5850 2050 5850 2150
 Wire Wire Line
 	5850 2150 6300 2150
-Text GLabel 6900 2050 2    50   Input ~ 0
-RGBData2
 Text GLabel 8700 3400 2    50   Input ~ 0
+RGBData2
+Text GLabel 6950 3350 2    50   Input ~ 0
 RGBData3
 Text GLabel 8700 4100 2    50   Input ~ 0
 RGBData4
@@ -1215,4 +1209,58 @@ F 3 "" H 8100 3400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 NoConn ~ 6950 5450
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 619AED21
+P 10005 5875
+F 0 "H8" H 10105 5921 50  0000 L CNN
+F 1 "Stabs" H 10105 5830 50  0000 L CNN
+F 2 "CherryMX_StabWireBottom:CherryMX_2.00u_StabWireBottom-nokey" H 10005 5875 50  0001 C CNN
+F 3 "~" H 10005 5875 50  0001 C CNN
+	1    10005 5875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H9
+U 1 1 619B023A
+P 10010 6130
+F 0 "H9" H 10110 6176 50  0000 L CNN
+F 1 "Stabs" H 10110 6085 50  0000 L CNN
+F 2 "CherryMX_StabWireBottom:CherryMX_2.00u_StabWireBottom-nokey" H 10010 6130 50  0001 C CNN
+F 3 "~" H 10010 6130 50  0001 C CNN
+	1    10010 6130
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 2050 7400 2050
+Wire Wire Line
+	7400 2050 7400 3470
+Wire Wire Line
+	7400 3470 7895 3470
+Wire Wire Line
+	7895 3470 7895 3500
+Wire Wire Line
+	7895 3500 8100 3500
+$Comp
+L Mechanical:MountingHole H10
+U 1 1 61AE8DB4
+P 9985 6415
+F 0 "H10" H 10085 6461 50  0000 L CNN
+F 1 "PCBA" H 10085 6370 50  0000 L CNN
+F 2 "JLCPCBA:PCBA Hole" H 9985 6415 50  0001 C CNN
+F 3 "~" H 9985 6415 50  0001 C CNN
+	1    9985 6415
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H11
+U 1 1 61AE93BC
+P 10610 6420
+F 0 "H11" H 10710 6466 50  0000 L CNN
+F 1 "PCBA" H 10710 6375 50  0000 L CNN
+F 2 "JLCPCBA:PCBA Hole" H 10610 6420 50  0001 C CNN
+F 3 "~" H 10610 6420 50  0001 C CNN
+	1    10610 6420
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
