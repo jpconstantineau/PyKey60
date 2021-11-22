@@ -1,0 +1,11 @@
+(fp_lib_table
+  (lib (name lib.pretty)(type KiCad)(uri "$(KIPRJMOD)/lib.pretty")(options "")(descr ""))
+  (lib (name CherryMX_PCB_KailhSocket_LTST-A683CEGBW-HS)(type KiCad)(uri ${KIPRJMOD}/footprints/CherryMX_PCB_KailhSocket_LTST-A683CEGBW-HS.pretty)(options "")(descr ""))
+  (lib (name CherryMX_PCB_KailhSocket_StabWireBottom_LTST-A683CEGBW-HS)(type KiCad)(uri ${KIPRJMOD}/footprints/CherryMX_PCB_KailhSocket_StabWireBottom_LTST-A683CEGBW-HS.pretty)(options "")(descr ""))
+  (lib (name CherryMX_PCB_KailhSocket_StabWireTop_LTST-A683CEGBW-HS)(type KiCad)(uri ${KIPRJMOD}/footprints/CherryMX_PCB_KailhSocket_StabWireTop_LTST-A683CEGBW-HS.pretty)(options "")(descr ""))
+  (lib (name RP2040_minimal)(type KiCad)(uri ${KIPRJMOD}/RP2040_minimal.pretty)(options "")(descr ""))
+  (lib (name CherryMX_PCB_KailhSocket_LTST-A683CEGBW-Rotated-HS)(type KiCad)(uri ${KIPRJMOD}/footprints/CherryMX_PCB_KailhSocket_LTST-A683CEGBW-Rotated-HS.pretty)(options "")(descr ""))
+  (lib (name CherryMX_PCB_KailhSocket_LTST-A683CEGBW-Rotated)(type KiCad)(uri ${KIPRJMOD}/footprints/CherryMX_PCB_KailhSocket_LTST-A683CEGBW-Rotated.pretty)(options "")(descr ""))
+  (lib (name CherryMX_PCB_KailhSocket_StabWireBottom_LTST-A683CEGBW-Rotated-HS)(type KiCad)(uri ${KIPRJMOD}/footprints/CherryMX_PCB_KailhSocket_StabWireBottom_LTST-A683CEGBW-Rotated-HS.pretty)(options "")(descr ""))
+  (lib (name CherryMX_PCB_KailhSocket_StabWireTop_LTST-A683CEGBW-Rotated-HS)(type KiCad)(uri ${KIPRJMOD}/footprints/CherryMX_PCB_KailhSocket_StabWireTop_LTST-A683CEGBW-Rotated-HS.pretty)(options "")(descr ""))
+)
