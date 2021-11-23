@@ -1,6 +1,6 @@
 # PyKey60 - Keyboard Hardware supported by the PyKey60 CircuitPython Download
 
-### PyKey60
+### PyKey60: 60% Keyboard
 
 ![PyKey60](./pykey60/images/PyKey60.PNG)
 
@@ -17,7 +17,7 @@ Design of PyKey60 is licensed under **CERN Open Hardware Licence Version 2 - Wea
 Author of the Pykey60 is Pierre Constantineau
 
 
-### VColChoc44
+### VColChoc44 (Atreus44)
 
 ![VColChoc44](./VColChoc44/images/VColChoc44.PNG)
 
@@ -29,7 +29,7 @@ Design of VColChoc44 is licensed under **CERN Open Hardware Licence Version 2 - 
 
 Author of the VColChoc44 is Pierre Constantineau
 
-### PyKey87
+### PyKey87: TKL (Ten Key Less) Keyboard
 
 ![PyKey87](./pykey87/images/PyKey87.PNG)
 
@@ -42,6 +42,14 @@ The rows and columns used by PyKey87 expanded the PyKey60 configuration to suppo
 Design of PyKey87 is licensed under **CERN Open Hardware Licence Version 2 - Weakly Reciprocal**
 
 Authors of the Pykey87 are Pierre Constantineau and nitronarcosis (https://github.com/nitronarcosis)
+
+### PyKey18: Numpad
+
+![PyKey18](./pykey18/images/PyKey18.PNG)
+The PyKey18 is a custom programmable mechanical keyboard with a standard numpad keyboard layout.  The PyKey18 uses mechanical switches (Cherry MX type). The keys are hot-swap socketed and have an individual underglow RGB LED which can be turned on. The PCB was designed for use with PCB-mount stabilizers.  The case is a simple sandwich case. 
+
+In addition to the standard numpad, it allows for a rotary encoder as well as a 0.91" OLED screen.  As such,  it can be used similarly to the Adafruit Macropad RP2040 but has more keys.
+
 
 ### Guidelines for adding new boards to PyKey60 repository
 
