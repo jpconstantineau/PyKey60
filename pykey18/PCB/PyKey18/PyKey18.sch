@@ -64,28 +64,6 @@ F 3 "~" H 10000 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H5
-U 1 1 61A244C8
-P 10000 5050
-F 0 "H5" H 10100 5096 50  0000 L CNN
-F 1 "MountingHole-feet" H 10100 5005 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4" H 10000 5050 50  0001 C CNN
-F 3 "~" H 10000 5050 50  0001 C CNN
-	1    10000 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H6
-U 1 1 61A25DD3
-P 10000 5300
-F 0 "H6" H 10100 5346 50  0000 L CNN
-F 1 "MountingHole-feet" H 10100 5255 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4" H 10000 5300 50  0001 C CNN
-F 3 "~" H 10000 5300 50  0001 C CNN
-	1    10000 5300
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole H7
 U 1 1 61A2AEBB
 P 10000 5550
