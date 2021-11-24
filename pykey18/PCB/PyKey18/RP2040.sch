@@ -74,25 +74,17 @@ Wire Wire Line
 	5000 2250 5000 2300
 Wire Wire Line
 	5000 2350 4900 2350
-Wire Wire Line
-	5000 2300 5400 2300
 Connection ~ 5000 2300
 Wire Wire Line
 	5000 2300 5000 2350
 Wire Wire Line
 	5000 2050 5000 2100
-Wire Wire Line
-	5650 2250 5450 2250
-Wire Wire Line
-	5450 2250 5450 2100
-Wire Wire Line
-	5450 2100 5000 2100
 Connection ~ 5000 2100
 Wire Wire Line
 	5000 2100 5000 2150
-Text GLabel 5400 2300 2    60   Input ~ 0
+Text GLabel 6800 1850 2    60   Input ~ 0
 Data+
-Text GLabel 5650 2250 2    60   Input ~ 0
+Text GLabel 6000 1250 2    60   Input ~ 0
 Data-
 Text GLabel 6600 1550 2    60   Input ~ 0
 VBUS
@@ -1117,7 +1109,7 @@ Connection ~ 4300 3150
 Wire Wire Line
 	4300 3150 4300 3200
 Wire Wire Line
-	5550 1550 6600 1550
+	5550 1550 6400 1550
 Text GLabel 14250 5100 2    60   Input ~ 0
 COL16
 Text GLabel 14250 5000 2    60   Input ~ 0
@@ -1293,4 +1285,43 @@ Text GLabel 17600 6550 0    60   Input ~ 0
 I2C1_SDA
 Text GLabel 17600 6650 0    60   Input ~ 0
 I2C1_SCL
+$Comp
+L Power_Protection:USBLC6-2SC6 U104
+U 1 1 619EC863
+P 6400 1950
+F 0 "U104" H 6400 2531 50  0000 C CNN
+F 1 "USBLC6-2SC6" H 6400 2440 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 6400 1450 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" H 6600 2300 50  0001 C CNN
+	1    6400 1950
+	1    0    0    -1  
+$EndComp
+Connection ~ 6400 1550
+Wire Wire Line
+	6400 1550 6600 1550
+$Comp
+L power:GND #PWR030
+U 1 1 619F0415
+P 6400 2350
+F 0 "#PWR030" H 6400 2100 50  0001 C CNN
+F 1 "GND" H 6405 2177 50  0000 C CNN
+F 2 "" H 6400 2350 50  0001 C CNN
+F 3 "" H 6400 2350 50  0001 C CNN
+	1    6400 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 2050 6950 2050
+Wire Wire Line
+	6950 2050 6950 2300
+Wire Wire Line
+	5000 2300 6950 2300
+Wire Wire Line
+	5850 2100 5850 2050
+Wire Wire Line
+	5850 2050 6000 2050
+Wire Wire Line
+	5000 2100 5850 2100
+Wire Wire Line
+	6000 1250 6000 1850
 $EndSCHEMATC
