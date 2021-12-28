@@ -66,5 +66,5 @@ In addition to the standard numpad, it allows for a rotary encoder as well as a 
 * Images provided in the image folder
 * Both PCB-Design and PCB-Gerbers are provided.
 * A readme is included
-* CircuitPython must be able to run with the Original [PyKey60 CircuitPython Download/UF2](https://circuitpython.org/board/jpconstantineau_pykey60/)
+* CircuitPython must be able to run with the Original [PyKey60 CircuitPython Download/UF2](https://circuitpython.org/board/jpconstantineau_pykey60/) or the Pykey87 for larger keyboards.
 * A summary description is provided in the repository readme
